@@ -5,4 +5,4 @@
 2. <font color="#006600">中间的头像选中会有旋转效果</font><br/>
 3. <font color="#006600">下面的按钮点击时有外发光效果,中间的文本框是以逐字逐句的效果出现的</font><br/>
 4. <font color="#006600">整体用flex布局具有响应式效果</font><br/>
-可以到我的csdn观看详细注释版的代码
+可以到我的csdn观看详细注释版的代码 https://blog.csdn.net/yingjiayu12/article/details/125824548
