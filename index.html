@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YJY的自我介绍</title>
+    <link rel="shortcut icon" href="img/touxiang.jpg">
+    <link rel="stylesheet" href="main.css">
+
+    <script>
+        "use strict"
+
+    </script>
+    <style></style>
+</head>
+
+<body>
+    <div class="bg">
+        <div class="profileCard">
+            <div class="logo1">
+                <img src="img/touxiang.jpg" alt="" class="touxiang">
+            </div>
+            <p class="name">YJY</p>
+            <div class="biaoyu">
+                <p>JS的世界无比巧妙</p>
+            </div>
+            <div class="buttons">
+                <button class="button1" onclick="aboutMe()" id="button1">关于我</button>
+                <button class="button1" onclick="window.open('https://www.baidu.com')">进入博客</button>
+                <button class="button1" onclick="window.open('https://www.baidu.com')">服务器状态</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <p class="footer2">
+                Openned in <a target="_blank" href='https://www.github.com'>Github</a>
+            </p>
+            <p class="footer2">© 2022 YJY <a target="_blank" href="https://card.niconi.co.ni">LL查看器</a>&nbsp; 模板:<a target="_blank" href="https://funny233.xyz/">高坂滑稽果</a> 
+            </p>
+        </footer>
+    </div>
+    <img src="img/4.texb" class="lihui" id="lihui" alt="">
+    <div class="background" id="background"></div>
+    <div class="yinghua" id="yinghua"></div>
+    <div class="background2" id="background2"></div>
+    <script src="main.js"></script>
+    <script>
+        window.onload=load2D_bg(document.querySelector('.background'),0.8,0.75);
+        window.onload=load2D_bg(document.querySelector('.background2'),0.8,0.75);
+        window.onload=load2D_bg(document.querySelector('.yinghua'),1.5,1);
+        window.onload=load2D_bg_muhu();
+        window.onload=load2D_lihui();
+    </script>
+    <noscript>sorry,你的浏览器不支持javascipt语言</noscript>
+</body>
+</html>
